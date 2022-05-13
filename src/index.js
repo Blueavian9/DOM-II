@@ -2,6 +2,7 @@ import './less/index.less'
 
 // Your code goes here!
 console.log("Hello World!");
+// eslint-disable-next-line no-unused-vars
 const universalSelector = document.querySelector("*");
 
 // 1 - load Event
@@ -10,14 +11,14 @@ const universalSelector = document.querySelector("*");
         const heading = document.querySelector('h1')
         heading.textContent = 'READY TO GO!!'
     }
+    console.log(onload);
 
   // 2 - copy Event
     window.addEventListener('copy', () => {
         //universalSelector.clipboard.readText();
         console.log('pass');
         // eslint-disable-next-line no-undef
-    })
-  
+    })  
 
 // 3 - click
     document.body.addEventListener('click', evt => {
@@ -35,3 +36,18 @@ const universalSelector = document.querySelector("*");
           document.body.innerHTML = 'LORD VADER EXECUTE ORDER 66'
       }
   })
+
+// 6 - MouseOver
+  document.body.addEventListener('mouseover', evt => {
+      
+  })
+
+// 7 - Focus 
+
+// 8 scroll
+
+// 9 - select 
+
+// 10 - drag / drop
+
+
