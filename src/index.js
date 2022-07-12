@@ -41,6 +41,7 @@ window.onload = function (evt) {
   })
 
   // 7- mouseeneter
+  
   // 8- mouseleave
   const destinations = document.querySelectorAll('.destination')
   for (let destination of destinations) {
